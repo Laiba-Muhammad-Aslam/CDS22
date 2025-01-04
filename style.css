@@ -44,6 +44,12 @@ nav{
     padding: 3.5rem;
     padding-right: 4rem;
     padding-left: 4rem;
+    /* border: 2px solid red; */
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #ffff;
 }
 nav ul{
     display: flex;
@@ -93,6 +99,11 @@ nav.mobile-screen{
     justify-content: center;
     flex-direction: column;
     display: none;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #ffff;
 }
 nav.mobile-screen #logo{
     margin-bottom: 2rem;
